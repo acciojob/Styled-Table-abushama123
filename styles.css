@@ -1,1 +1,24 @@
 /* your code */
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid #EBEBEB;
+    column-gap: 40px;
+}
+.thead{
+    background-color: #215A8E;
+}
+.tbody{
+    background-color: white;
+}
+.odd_rows{
+    background-color: #DDDDDD;
+}
+td{
+    padding: 0px 12px;
+}
+th{
+    padding: 0px 12px;
+}
